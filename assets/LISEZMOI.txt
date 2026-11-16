@@ -1,0 +1,6 @@
+Copie ici les 16 images du site (mêmes noms que ci-dessous), puis ouvre index.html :
+
+logo.jpg  arched-room.jpg  blue-corner.jpg  guitar-wall.jpg  iced-matcha-duo.jpg
+terrace.jpg  interior-niches.jpg  karaoke-evening.jpg  flowers-window.jpg
+matcha-drink.jpg  guest-dessert.jpg  dar-arbi-wall.jpg  counter-team.jpg
+tote-bag.jpg  bw-barista.jpg  storefront.jpg
