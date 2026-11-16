@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kmayra | قميرة — Coffee shop in Hergla, Tunisia</title>
+    <meta name="description" content="Kmayra | قميرة — coffee shop in Hergla, Tunisia. Café à Hergla, كافيه في هرقلة: matcha, desserts, karaoke evenings." />
+    <meta property="og:title" content="Kmayra | قميرة — Coffee shop, Hergla" />
+    <meta property="og:description" content="Kmayra | قميرة — coffee shop in Hergla, Tunisia. Café à Hergla, كافيه في هرقلة: matcha, desserts, karaoke evenings." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Readex+Pro:wght@300..700&display=swap" />
+
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Kmayra | قميرة","address":{"@type":"PostalAddress","addressLocality":"Hergla","addressRegion":"Sousse","addressCountry":"TN"},"geo":{"@type":"GeoCoordinates","latitude":36.030453,"longitude":10.5098625},"hasMap":"https://www.google.com/maps/place/Kmayra+coffee+shop/@36.030453,10.5098625,17z/data=!3m1!4b1!4m6!3m5!1s0x12fd85007e042441:0x80313b62e541119f!8m2!3d36.030453!4d10.5098625","sameAs":["https://www.instagram.com/kmayra_coffeeshop/","https://www.facebook.com/profile.php?id=61581065014302","https://www.tiktok.com/@kmayra_coffeeshop"]}
+    </script>
+  </head>
+  <body>
+    <div id="app" dir="rtl" class="animate-in fade-in duration-500">
+      <!-- NAV -->
+      <header class="fixed inset-x-0 top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">
+        <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
+          <a href="#top" class="flex items-center gap-3">
+            <img src="assets/logo.jpg" alt="Kmayra logo" class="h-10 w-10 rounded-full object-cover" />
+            <span class="font-display text-lg tracking-wide">Kmayra <span class="font-ruqaa">| قميرة</span></span>
+          </a>
+          <nav class="hidden gap-7 text-sm md:flex">
+            <a href="#about" class="transition-colors hover:text-accent" data-i18n="nav.about">حكايتنا</a>
+            <a href="#menu" class="transition-colors hover:text-accent" data-i18n="nav.menu">القائمة</a>
+            <a href="#gallery" class="transition-colors hover:text-accent" data-i18n="nav.gallery">الأجواء</a>
+            <a href="#words" class="transition-colors hover:text-accent" data-i18n="nav.words">كلامنا</a>
+            <a href="#visit" class="transition-colors hover:text-accent" data-i18n="nav.visit">زورونا</a>
+          </nav>
+          <div class="flex items-center gap-2">
+            <div class="flex overflow-hidden rounded-full border border-border text-xs" role="group" aria-label="Language">
+              <button type="button" data-lang="ar" aria-pressed="true" class="px-3 py-1.5 transition-colors bg-primary text-primary-foreground">عربي</button>
+              <button type="button" data-lang="en" aria-pressed="false" class="px-3 py-1.5 transition-colors hover:bg-secondary">EN</button>
+              <button type="button" data-lang="fr" aria-pressed="false" class="px-3 py-1.5 transition-colors hover:bg-secondary">FR</button>
+            </div>
+            <button type="button" id="nav-toggle" class="md:hidden px-2 text-xl" aria-label="Menu">☰</button>
+          </div>
+        </div>
+        <nav id="mobile-nav" class="flex flex-col gap-3 border-t border-border px-5 py-4 md:hidden" hidden>
+          <a href="#about" data-i18n="nav.about">حكايتنا</a>
+          <a href="#menu" data-i18n="nav.menu">القائمة</a>
+          <a href="#gallery" data-i18n="nav.gallery">الأجواء</a>
+          <a href="#words" data-i18n="nav.words">كلامنا</a>
+          <a href="#visit" data-i18n="nav.visit">زورونا</a>
+        </nav>
+      </header>
+
+      <!-- HERO -->
+      <section id="top" class="relative overflow-hidden pt-24 grain">
+        <div aria-hidden="true" class="pointer-events-none absolute -top-24 -end-24 h-96 w-96 rounded-full bg-accent/10 blur-3xl"></div>
+        <div aria-hidden="true" class="pointer-events-none absolute bottom-0 -start-24 h-72 w-72 rounded-full bg-accent/10 blur-3xl"></div>
+        <div class="mx-auto grid max-w-6xl items-center gap-12 px-5 py-14 md:grid-cols-[1.1fr_1fr] md:py-24">
+          <div class="reveal">
+            <p class="mb-3 text-xs uppercase tracking-[0.3em] text-accent" data-i18n="heroKicker">كافيه · هرقلة، تونس</p>
+            <h1 id="hero-title" dir="rtl" class="font-ruqaa leading-[1.4] text-5xl text-primary md:text-6xl" data-i18n="heroTitle">العزّ قهوة .. و القصر شوفتك</h1>
+            <p id="hero-tagline" dir="rtl" class="mt-4 font-ruqaa text-2xl text-accent" hidden>العزّ قهوة .. و القصر شوفتك</p>
+            <div class="mt-6 flex items-center gap-3 text-accent" aria-hidden="true"><span class="h-px w-12 bg-accent/50"></span>✿ ✿ ✿<span class="h-px w-12 bg-accent/50"></span></div>
+            <p class="mt-6 max-w-md text-lg text-muted-foreground" data-i18n="heroText">جدران بيضاء، ركايز مقوّسة، كراسي خشب وضو دافي — قميرة بلاصة صغيرة تتشرب فيها قهوتك على راحتك.</p>
+            <div class="mt-9 flex flex-wrap gap-3">
+              <a href="#menu" class="rounded-full bg-primary px-7 py-3.5 text-primary-foreground transition hover:-translate-y-0.5" data-i18n="ctaMenu">اكتشف القائمة</a>
+              <a href="#visit" class="rounded-full border border-primary px-7 py-3.5 transition hover:bg-primary hover:text-primary-foreground" data-i18n="ctaFind">وين نلقاونا</a>
+            </div>
+          </div>
+          <div class="relative reveal [animation-delay:200ms]">
+            <img src="assets/arched-room.jpg" alt="Inside Kmayra: arched niche, wooden chairs and warm light" class="arch aspect-[4/5] w-full object-cover shadow-2xl" />
+            <img src="assets/flowers-window.jpg" alt="Blue hydrangeas" class="arch absolute -bottom-8 -start-8 w-2/5 border-4 border-background object-cover aspect-[3/4] float-slow" />
+            <img src="assets/logo.jpg" alt="" class="absolute -top-4 -end-4 h-24 w-24 rounded-full border-4 border-background object-cover" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="mx-auto max-w-6xl px-5 py-24">
+        <div class="grid gap-12 md:grid-cols-2">
+          <img src="assets/dar-arbi-wall.jpg" alt="Dar Arbi calligraphy wall" class="arch aspect-square w-full object-cover" />
+          <div class="self-center">
+            <p class="mb-3 text-xs uppercase tracking-[0.3em] text-accent" data-i18n="aboutKicker">حكايتنا</p>
+            <h2 class="font-display text-4xl md:text-5xl" data-i18n="aboutTitle">قميرة… اسم دافي كيما البلاصة</h2>
+            <div class="mt-6 space-y-4 text-lg text-muted-foreground">
+              <p data-i18n="about1">شعارنا وجه امرأة بمحرمة داخل قوس — تحية للمرأة التونسية وللمعمار المتوسطي اللي يحاوطنا في هرقلة.</p><p data-i18n="about2">في الداخل: ركايز في الحيط فيها فخار، ثريات من السمار، ورد أزرق، وكراسي حلفاء. وفي بعض الليالي، سهريات كاراوكي.</p><p data-i18n="about3">ونتشاركو الحيط مع «دار عربي» — فن، لبسة وأشياء يومية.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MENU -->
+      <section id="menu" class="bg-ink py-24 text-ink-foreground">
+        <div class="mx-auto max-w-4xl px-5">
+          <p class="mb-3 text-xs uppercase tracking-[0.3em] text-accent" data-i18n="menuKicker">القائمة</p>
+          <h2 class="font-display text-4xl md:text-5xl" data-i18n="menuTitle">شنوّا نشربو اليوم؟</h2>
+          <div id="menu-tabs" class="mt-8 flex flex-wrap gap-2"></div>
+          <ul id="menu-list" class="mt-10 divide-y divide-ink-foreground/25 border-y border-ink-foreground/25 reveal"></ul>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section id="gallery" class="mx-auto max-w-6xl px-5 py-24">
+        <p class="mb-3 text-xs uppercase tracking-[0.3em] text-accent" data-i18n="galleryKicker">الأجواء</p>
+        <h2 class="font-display text-4xl md:text-5xl" data-i18n="galleryTitle">داخل قميرة</h2>
+        <div id="gallery-cats" class="mt-8 flex flex-wrap gap-2"></div>
+        <div id="gallery-grid" class="mt-10 columns-2 gap-4 md:columns-3"></div>
+        <p class="mt-4 text-xs text-muted-foreground">Photos: <a class="underline" href="https://www.instagram.com/kmayra_coffeeshop/" target="_blank" rel="noreferrer">@kmayra_coffeeshop</a></p>
+      </section>
+      <div id="lightbox" class="fixed inset-0 z-50 flex items-center justify-center bg-ink/95 p-4" role="dialog" aria-modal="true" hidden>
+        <img id="lightbox-img" src="" alt="" class="max-h-[85vh] max-w-full object-contain" />
+        <p id="lightbox-caption" class="absolute bottom-6 text-sm text-ink-foreground"></p>
+        <button type="button" class="absolute end-6 top-6 text-3xl text-ink-foreground" aria-label="Close">×</button>
+      </div>
+
+      <!-- WORDS -->
+      <section id="words" class="relative bg-secondary py-24 grain">
+        <div class="mx-auto max-w-6xl px-5 text-center">
+          <p class="mb-3 text-xs uppercase tracking-[0.3em] text-accent" data-i18n="wordsKicker">روح البلاصة</p>
+          <h2 class="font-display text-4xl md:text-5xl" data-i18n="wordsTitle">كلامنا</h2>
+          <div id="words-grid" class="mt-14 grid gap-6 md:grid-cols-3"></div>
+        </div>
+      </section>
+
+      <!-- HOURS + VISIT -->
+      <section id="visit" class="mx-auto grid max-w-6xl gap-12 px-5 py-24 md:grid-cols-2">
+        <div>
+          <p class="mb-3 text-xs uppercase tracking-[0.3em] text-accent" data-i18n="hoursKicker">الأوقات</p>
+          <span id="open-badge" class="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm bg-muted"><span class="h-2 w-2 rounded-full bg-current"></span><span id="open-label">مسكّر توا</span></span>
+          <ul id="hours-list" class="mt-6 divide-y"></ul>
+          <p id="hours-pending" class="rounded-sm border border-dashed border-accent p-6 text-muted-foreground" data-i18n="hoursPending" hidden>أوقات العمل في انتظار التأكيد. ابعثلنا على إنستغرام باش تتأكد.</p>
+
+          <div class="mt-14">
+            <p class="mb-3 text-xs uppercase tracking-[0.3em] text-accent" data-i18n="visitKicker">زورونا</p>
+            <h2 class="font-display text-3xl md:text-4xl" data-i18n="visitTitle">هرقلة، الساحل التونسي</h2>
+            <p class="mt-4 text-muted-foreground" data-i18n="address">قميرة كافيه، هرقلة، سوسة، تونس</p>
+            <div id="visit-actions" class="mt-6 flex flex-wrap gap-3">
+              <a href="https://www.google.com/maps/dir/?api=1&amp;destination=36.030453,10.5098625" target="_blank" rel="noreferrer" class="rounded-full bg-primary px-6 py-3 text-primary-foreground" data-i18n="directions">الطريق</a>
+            </div>
+          </div>
+        </div>
+        <iframe title="Kmayra on Google Maps" loading="lazy" class="arch h-[520px] w-full border-0" src="https://www.google.com/maps?q=36.030453,10.5098625&amp;z=17&amp;output=embed"></iframe>
+      </section>
+
+      <!-- SOCIAL + FOOTER -->
+      <footer class="bg-ink text-ink-foreground">
+        <div class="mx-auto max-w-6xl px-5 py-16">
+          <div class="flex flex-col items-center gap-6 text-center">
+            <img src="assets/logo.jpg" alt="Kmayra" class="h-20 w-20 rounded-full object-cover" />
+            <p class="font-ruqaa text-3xl">قميرة</p>
+            <p class="opacity-70" data-i18n="footer">قهوة صغيرة بروح هرقلة.</p>
+            <p class="text-xs uppercase tracking-[0.3em] text-lime" data-i18n="follow">تابعونا</p>
+            <div class="flex gap-4">
+              <a href="https://www.instagram.com/kmayra_coffeeshop/" target="_blank" rel="noreferrer" class="rounded-full border border-ink-foreground/30 px-5 py-2 text-sm transition hover:border-lime hover:text-lime">Instagram</a>
+              <a href="https://www.facebook.com/profile.php?id=61581065014302" target="_blank" rel="noreferrer" class="rounded-full border border-ink-foreground/30 px-5 py-2 text-sm transition hover:border-lime hover:text-lime">Facebook</a>
+              <a href="https://www.tiktok.com/@kmayra_coffeeshop" target="_blank" rel="noreferrer" class="rounded-full border border-ink-foreground/30 px-5 py-2 text-sm transition hover:border-lime hover:text-lime">TikTok</a>
+            </div>
+            <nav class="mt-4 flex flex-wrap justify-center gap-5 text-sm opacity-70">
+              <a href="#about" data-i18n="nav.about">حكايتنا</a>
+              <a href="#menu" data-i18n="nav.menu">القائمة</a>
+              <a href="#gallery" data-i18n="nav.gallery">الأجواء</a>
+              <a href="#words" data-i18n="nav.words">كلامنا</a>
+              <a href="#visit" data-i18n="nav.visit">زورونا</a>
+            </nav>
+            <p class="text-xs opacity-50">© <span id="year">2026</span> Kmayra | قميرة — Hergla, Tunisia</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
